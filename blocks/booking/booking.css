@@ -1,0 +1,38 @@
+.booking {
+  padding-left: 120px;
+  padding-right: 121px;
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 1439px) {
+  .booking {
+    padding-left: 110px;
+    padding-right: 110px;
+    gap: 36px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .booking {
+    padding-left: 90px;
+    padding-right: 60px;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .booking {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .booking {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 16px;
+    flex-direction: column-reverse;
+  }
+}

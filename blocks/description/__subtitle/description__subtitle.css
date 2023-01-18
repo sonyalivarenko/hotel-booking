@@ -1,0 +1,17 @@
+.description__subtitle {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  margin-top: 28px;
+  margin-bottom: 17px;
+  max-width: 584px;
+}
+
+@media screen and (max-width: 1023px) {
+  .description__subtitle {
+    font-size: 15px;
+  }
+}

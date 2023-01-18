@@ -1,0 +1,26 @@
+.description__content {
+  max-width: 690px;
+  margin-top: calc(188px - 80px);
+}
+
+@media screen and (max-width: 1279px) {
+  .description__content {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .description__content {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__content {
+    margin-top: 0;
+    text-align: center;
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

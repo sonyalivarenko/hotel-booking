@@ -1,0 +1,24 @@
+.footer__column-left {
+  display: grid;
+  gap: 13px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__column-left {
+    grid-template-columns: 229px 1fr;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .footer__column-left {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .footer__column-left{
+    justify-items: center;
+
+  }
+}
+

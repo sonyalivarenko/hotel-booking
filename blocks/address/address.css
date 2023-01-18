@@ -1,0 +1,10 @@
+.address {
+  font-style: normal;
+}
+
+@media screen and (max-width: 587px) {
+  .address {
+    text-align: center;
+
+  }
+}

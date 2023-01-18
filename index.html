@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Бронирование и аренда загородного дома для отдыха. Разнообразные интерьеры.
+    Большие дома для шумных компаний или маленький домик для уединения">
+  <meta name="robots" content="Аренда, Бронирование, Загородный дом">
+  <title>Аренда загородного дома</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="logo" src="./images/HotelBooking.svg" alt="Векторный логотип">
+    <nav class="header__column">
+      <a class="header__link" href="#homes">Дома</a>
+      <a class="header__link" href="#booking">Бронирование</a>
+      <a class="header__link" href="#contacts">Контакты</a>
+    </nav>
+    <button class="button button_size_one">Бронировать</button>
+  </header>
+  <main class="content">
+    <section class="booking">
+      <div class="booking__content" id="booking">
+        <h1 class="booking__title">Аренда загородного дома для&nbsp;отдыха</h1>
+        <p class="booking__subtitle">Самые выгодные предложения по аренде
+          коттеджей и&nbsp;загородных домов в&nbsp;Москве и&nbsp;области</p>
+        <button class="button button_size_two">Бронирование</button>
+      </div>
+      <div class="booking__images">
+        <img class="booking__img scale" src="./images/meritt-thomas-1.jpg" alt="Картинка красивого голубого дома">
+        <img class="booking__img-two scale" src="./images/meritt-thomas-2.jpg" alt="Картинка красивого голубого дома">
+        <img class="booking__img scale" src="./images/meritt-thomas-3.jpg" alt="Картинка красивого голубого дома">
+      </div>
+    </section>
+    <section class="description">
+      <img class="description__img" alt="Уютный дом в Норвежском стиле" src="./images/Norway.jpg">
+      <div class="description__content">
+        <h2 class="section-title description__title">Уютный двухэтажный дом в норвежском стиле</h2>
+        <p class="description__subtitle">Просторные коттеджи с видом на лес полностью укомплектованы:
+          кондиционер, холодильник, посудомоечная машина, газовая плита, духовка, микроволновая печь,
+          чайник, набор посуды и столовых приборов. В каждом коттедже: стиральная машина, гладильная станция, сушилка
+          для белья, фен. </p>
+        <button class="button button_size_two">Подробнее</button>
+      </div>
+    </section>
+    <section class="detail">
+      <div class="detail__active">
+        <div class="detail__content">
+          <h3 class="section-title detail__title">Активности</h3>
+          <p class="detail__subtitle">К вашим услугам наши прекрасные повора,
+            которые приготовят вкусную еду по составленную для вас персональному меню.
+            Также вы сможете воспользоваться СПА, тренажерным залом и прочими услугами, доступными на нашей территории.
+          </p>
+        </div>
+        <img class="detail__img" alt="Уютный вечер с шампанским" src="./images/active.jpg">
+      </div>
+      <div class="detail__products">
+        <img class="detail__img" alt="Блюда из разнообразных продуктов" src="./images/nature_products.jpg">
+        <div class="detail__content">
+          <h3 class="section-title detail__title">100% Натуральные продукты</h3>
+          <p class="detail__subtitle">При приготовлении наших блюд мы используем только свежие, полезные, натуральные
+            продукты.</p>
+        </div>
+      </div>
+    </section>
+    <section class="interiors">
+      <h2 class="interiors__title section-title">Наши интерьеры</h2>
+      <div class="interiors__slider">
+        <div class="interiors__slide">
+          <img class="interiors__image" src="./images/grid-item_1.jpg" alt="Фото интерьера в бежевых тонах">
+          <div class="slider-dots interiors__slider-dots">
+            <button class="slider-dots__dot"></button>
+            <button class="slider-dots__dot_active"></button>
+            <button class="slider-dots__dot"></button>
+            <button class="slider-dots__dot"></button>
+          </div>
+        </div>
+        <ul class="interiors__carousel">
+          <li class="interiors__carousel-item">
+            <img class="interiors__image" src="./images/grid-item_2.jpg" alt="Фото интерьера с ярким диваном">
+          </li>
+          <li class="interiors__carousel-item">
+            <img class="interiors__image" src="./images/grid-item_3.jpg" alt="Фото интерьера с белой кухней">
+          </li>
+          <li class="interiors__carousel-item">
+            <img class="interiors__image" src="./images/grid-item_4.jpg" alt="Фото интерьера с зеленой стеной">
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <section class="reservation" id="homes">
+      <h2 class="reservation__title section-title">Выберите ваш дом</h2>
+      <p class="reservation__description">У нас есть дома для любых мероприятий. Для большой компании у нас есть
+        двухэтажный дом на самом краю леса.</p>
+      <button class="button button_size_two">Подробнее</button>
+      <ul class="reservation__cards">
+        <li class="reservation__card" id="small-house">
+          <img class="reservation__image" src="./images/card_small-house.jpg" alt="Фото маленького домика для аренды">
+          <h3 class="reservation__card-header">Маленький домик</h3>
+          <p class="reservation__card-description">Уютный коттедж с 3 спальнями и бильярдом.</p>
+          <a href="#" class="reservation__card-link">Подробнее</a>
+        </li>
+        <li class="reservation__card" id="big-house">
+          <img class="reservation__image" src="./images/card_big-house.jpg" alt="Фото большого дома для аренды">
+          <h3 class="reservation__card-header">Большой дом</h3>
+          <p class="reservation__card-description">266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
+            бильярдом.</p>
+          <a href="#" class="reservation__card-link">Подробнее</a>
+        </li>
+        <li class="reservation__card" id="two-storey-house">
+          <img class="reservation__image" src="./images/card_two-storey-house.jpg"
+            alt="Фото двухэтажного дома для аренды">
+          <h3 class="reservation__card-header">Двухэтажный дом</h3>
+          <p class="reservation__card-description">Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально подойдет
+            для полноценного празднования нового года.</p>
+          <a href="#" class="reservation__card-link">Подробнее</a>
+        </li>
+      </ul>
+    </section>
+    <section class="reviews">
+      <h2 class="section-title reviews__title">Отзывы</h2>
+      <ul class="reviews__list">
+        <li class="reviews__review">
+          <img class="reviews__author-photo" src="./images/reviews_photo.jpg" alt="Фото человека, оставившего отзыв">
+          <blockquote class="reviews__quote">Мы очень долго искали коттедж, чтобы отметить день рождение. Все очень
+            понравилось. Комфортно, уютно,не дом, а сказка. Все очень понравилось,, хочется приехать еще сюда не один
+            раз</blockquote>
+          <p class="reviews__author">Ирина Иванова</p>
+        </li>
+      </ul>
+      <div class="slider-dots">
+        <button class="slider-dots__dot reviews__slider-dot"></button>
+        <button class="slider-dots__dot_active"></button>
+        <button class="slider-dots__dot reviews__slider-dot"></button>
+        <button class="slider-dots__dot reviews__slider-dot"></button>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="footer__columns-container">
+      <div class="footer__column-left">
+        <img class="logo" src="./images/logo_footer.svg" alt="Логотип HotelBooking">
+        <p class="footer__description">Загородный отдых с замечательными видами</p>
+        <ul class="footer__links-social">
+          <li class="footer__link-social">
+            <a href="#" class="footer__link-twitter"></a>
+          </li>
+          <li class="footer__link-social">
+            <a href="#" class="footer__link-vk"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__columns-right">
+        <div class="footer__column">
+          <h3 class="footer__column-heading">Дома</h3>
+          <nav class="footer__column-content">
+            <a href="#small-house" class="footer__link" target="_self">Маленький домик</a>
+            <a href="#big-house" class="footer__link" target="_self">Большой дом</a>
+            <a href="#two-storey-house" class="footer__link" target="_self">Двухэтажный дом</a>
+          </nav>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__column-heading">Бронирование</h3>
+          <nav class="footer__column-content">
+            <a href="#" class="footer__link" target="_blank">Оформление</a>
+            <a href="#" class="footer__link" target="_blank">Оплата</a>
+          </nav>
+        </div>
+        <div class="footer__column"  id="contacts">
+          <h3 class="footer__column-heading">Контакты</h3>
+          <ul class="footer__column-content">
+            <li class="footer__contact"><span class="footer__span-accent">8-800-555-35-35</span></li>
+            <li class="footer__contact"><a class="email" href="mailto:email@yandex.ru">email@yandex.ru</a></li>
+            <li class="footer__contact">
+              <address class="address">Деревня Кимжа, Архангельская область</address>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>

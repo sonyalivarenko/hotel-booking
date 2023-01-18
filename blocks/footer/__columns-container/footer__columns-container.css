@@ -1,0 +1,15 @@
+.footer__columns-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+@media screen and (max-width: 1023px) {
+  .footer__columns-container {
+    flex-direction: column;
+    gap: 30px;
+    align-items:stretch;
+  }
+}

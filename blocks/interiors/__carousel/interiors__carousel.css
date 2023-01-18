@@ -1,0 +1,19 @@
+.interiors__carousel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 586px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .interiors__carousel {
+    flex-direction: row;
+    gap: 3px;
+  }
+
+}

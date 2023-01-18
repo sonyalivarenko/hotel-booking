@@ -1,0 +1,9 @@
+.footer__link-twitter {
+  display: block;
+  background-image: url(../../../images/twitter-logo.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  line-height: 0;
+}

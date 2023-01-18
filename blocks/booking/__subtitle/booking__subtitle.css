@@ -1,0 +1,22 @@
+.booking__subtitle {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  margin-top: 24px;
+  margin-bottom: 59px;
+}
+
+@media screen and (max-width: 1023px) {
+  .booking__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .booking__subtitle {
+    margin-bottom: 29px;
+  }
+}

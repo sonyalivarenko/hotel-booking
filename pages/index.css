@@ -1,0 +1,103 @@
+@import url(../vendor/normalize.css);
+/* Подключаем шрифты */
+@import url(../vendor/fonts.css);
+/* Подключаем стили page */
+@import url(../blocks/page/page.css);
+/* Подключаем стили logo */
+@import url(../blocks/logo/logo.css);
+/* Подключаем стили блока content */
+@import url(../blocks/content/content.css);
+/* Подключаем стили блока slaider-dots */
+@import url(../blocks/slider-dots/slider-dots.css);
+@import url(../blocks/slider-dots/__dot/slider-dots__dot.css);
+@import url(../blocks/slider-dots/__dot/_active/slider-dots__dot_active.css);
+/* Подключаем стили блока section-title */
+@import url(../blocks/section-title/section-title.css);
+/* Подключаем стили блока button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_size/button_size_one.css);
+@import url(../blocks/button/_size/button_size_two.css);
+/* Подключаем стили блока header */
+@import url(../blocks/header/__header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__column/header__column.css);
+/* Подключаем стили блока booking */
+@import url(../blocks/booking/booking.css);
+@import url(../blocks/booking/__content/booking__content.css);
+@import url(../blocks/booking/__title/booking__title.css);
+@import url(../blocks/booking/__subtitle/booking__subtitle.css);
+@import url(../blocks/booking/__images/booking__images.css);
+@import url(../blocks/booking/__img/booking__img.css);
+@import url(../blocks/booking/__img-two/booking__img-two.css);
+/* Подключаем стили блока scale и scale-button*/
+@import url(../blocks/scale/scale.css);
+/* Подключаем стили блока description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__content/description__content.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__subtitle/description__subtitle.css);
+@import url(../blocks/description/__img/description__img.css);
+/* Подключаем стили блока detail */
+@import url(../blocks/detail/detail.css);
+@import url(../blocks/detail/__active/detail__active.css);
+@import url(../blocks/detail/__content/detail__content.css);
+@import url(../blocks/detail/__products/detail__products.css);
+@import url(../blocks/detail/__title/detail__title.css);
+@import url(../blocks/detail/__subtitle/detail__subtitle.css);
+@import url(../blocks/detail/__img/detail__img.css);
+/* Подключаем стили секции interiors */
+@import url(../blocks/interiors/interiors.css);
+@import url(../blocks/interiors/__slider/interiors__slider.css);
+@import url(../blocks/interiors/__slide/interiors__slide.css);
+@import url(../blocks/interiors/__carousel/interiors__carousel.css);
+@import url(../blocks/interiors/__carousel-item/interiors__carousel-item.css);
+@import url(../blocks/interiors/__image/interiors__image.css);
+@import url(../blocks/interiors/__title/interiors__title.css);
+@import url(../blocks/interiors/__slider-dots/interiors__slider-dots.css);
+/* Подключаем стили секции reservation */
+@import url(../blocks/reservation/reservation.css);
+@import url(../blocks/reservation/__title/reservation__title.css);
+@import url(../blocks/reservation/__card-description/reservation__card-description.css);
+@import url(../blocks/reservation/__card-header/reservation__card-header.css);
+@import url(../blocks/reservation/__card-link/reservation__card-link.css);
+@import url(../blocks/reservation/__card/reservation__card.css);
+@import url(../blocks/reservation/__cards/reservation__cards.css);
+@import url(../blocks/reservation/__description/reservation__description.css);
+@import url(../blocks/reservation/__image/reservation__image.css);
+/* Подключаем стили секции reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__author-photo/reviews__author-photo.css);
+@import url(../blocks/reviews/__author/reviews__author.css);
+@import url(../blocks/reviews/__list/reviews__list.css);
+@import url(../blocks/reviews/__quote/reviews__quote.css);
+@import url(../blocks/reviews/__review/reviews__review.css);
+@import url(../blocks/reviews/__slider-dot/reviews__slider-dot.css);
+@import url(../blocks/reviews/__title/rewiews__title.css);
+/* Подключаем стили address*/
+@import url(../blocks/address/address.css);
+/* Подключаем стили email*/
+@import url(../blocks/email/email.css);
+/* Подключаем стили footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column-left/footer__column-left.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-content/footer__column-content.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__columns-right/footer__columns-right.css);
+@import url(../blocks/footer/__columns-container/footer__columns-container.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__link-social/footer__link-social.css);
+@import url(../blocks/footer/__link-twitter/footer__link-twitter.css);
+@import url(../blocks/footer/__link-vk/footer__link-vk.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links-social/footer__links-social.css);
+@import url(../blocks/footer/__span-accent/footer__span-accent.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+
+
+
+
+
+
+
+

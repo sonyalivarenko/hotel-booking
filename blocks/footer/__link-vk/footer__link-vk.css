@@ -1,0 +1,8 @@
+.footer__link-vk {
+  display: block;
+  background-image: url(../../../images/vk-logo.svg);
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 26px;
+  margin: 0;
+}

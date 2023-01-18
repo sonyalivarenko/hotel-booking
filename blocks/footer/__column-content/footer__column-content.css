@@ -1,0 +1,23 @@
+.footer__column-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* 5 px - padding-bottom у ссылок, чтобы анимация при наведении была ниже */
+  gap: calc(24px - 5px);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__column-content {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .footer__column-content {
+    align-items: center;
+
+  }
+}

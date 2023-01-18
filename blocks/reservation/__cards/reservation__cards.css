@@ -1,0 +1,39 @@
+.reservation__cards {
+  width: 100%;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  align-content: stretch;
+  justify-content: center;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fit,  384px);
+  padding: 88px 0 80px;
+  gap: 24px;
+}
+
+@media screen and (max-width: 1439px){
+  .reservation__cards {
+    padding: 80px 0;
+    grid-template-columns: repeat(auto-fit, 360px);
+  }
+}
+
+@media screen and (max-width: 1383px){
+  .reservation__cards {
+    padding: 60px 0;
+    grid-template-columns: repeat(auto-fit, 340px);
+  }
+}
+
+@media screen and (max-width: 1325px){
+  .reservation__cards {
+    padding: 40px 0;
+    grid-template-columns: repeat(auto-fit, 320px);
+  }
+}
+
+@media screen and (max-width: 767px){
+  .reservation__cards {
+    padding: 20px 0;
+  }
+}

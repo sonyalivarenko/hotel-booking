@@ -1,0 +1,14 @@
+.reservation__card-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+  /* в padding также входит размер card-link - 27px */
+  padding-bottom: calc(32px + 27px);
+}
+
+@media screen and (max-width: 1023px) {
+  .reservation__card-description {
+    font-size: 15px;
+  }
+}

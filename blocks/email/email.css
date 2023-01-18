@@ -1,0 +1,18 @@
+.email {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9dbde;
+  transition: opacity 0.7s;
+}
+
+.email:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1023px) {
+  .email {
+    font-size: 12px;
+  }
+}

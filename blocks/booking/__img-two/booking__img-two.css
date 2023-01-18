@@ -1,0 +1,15 @@
+.booking__img-two {
+  width: 100%;
+  margin-top: 161px;
+  margin-bottom: 96px;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .booking__img-two {
+    margin-top: 121px;
+    margin-bottom: 0;
+  }
+}

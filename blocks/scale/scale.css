@@ -1,0 +1,12 @@
+@keyframes scale {
+  from {
+    transform: scale(0.2,0.2);
+  }
+  to {
+    transform: scale(1,1);
+  }
+}
+
+.scale {
+  animation: scale 1.5s ease-out 1;
+}

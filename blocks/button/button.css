@@ -1,0 +1,30 @@
+.button {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background-color: #0E1734;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #1d49aa;
+}
+
+.button:active {
+  transform: scale(1.05,1.05);
+  filter: drop-shadow(3px 3px 5px hsl(197, 100%, 50%));
+}
+
+@media screen and (max-width: 1023px) {
+  .button {
+    font-size: 12px;
+  }
+}
+
+

@@ -1,0 +1,14 @@
+.booking__images {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+@media screen and (max-width: 1439px) {
+  .booking__images {
+    gap: 16px;
+  }
+}
+
+
+

@@ -1,0 +1,36 @@
+.booking__content {
+  max-width: 587px;
+  margin-top: 215px;
+}
+
+@media screen and (max-width: 1439px) {
+  .booking__content {
+    max-width: 487px;
+    margin-top: 190px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .booking__content {
+    margin-top: 130px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .booking__content {
+    max-width: 387px;
+    margin-top: 110px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .booking__content {
+    max-width: 387px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+

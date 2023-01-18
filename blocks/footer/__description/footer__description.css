@@ -1,0 +1,31 @@
+.footer__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #d9dbde;
+  max-width: 186px;
+  padding: 0 0 25px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__description {
+    max-width: fit-content;
+    padding: 0;
+    justify-self: end;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .footer__description {
+    justify-self: start;
+    padding: 0 0 25px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .footer__description {
+    justify-self: center;
+    text-align: center;
+  }
+}

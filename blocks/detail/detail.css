@@ -1,0 +1,29 @@
+.detail {
+  padding: 80px 226px 80px 120px;
+}
+
+@media screen and (max-width: 1439px) {
+  .detail {
+    padding-right: 170px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .detail {
+    padding-left: 90px;
+    padding-right: 120px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .detail {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .detail {
+    padding: 40px 10px;
+  }
+}

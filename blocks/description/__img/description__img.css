@@ -1,0 +1,21 @@
+.description__img {
+  max-width: 384px;
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .description__img {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__img {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

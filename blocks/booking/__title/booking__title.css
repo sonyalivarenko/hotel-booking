@@ -1,0 +1,23 @@
+.booking__title {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .booking__title {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .booking__title {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,9 @@
+.button_size_one {
+  padding: 14px 16px;
+}
+
+@media screen and (max-width: 1023px) {
+  .button_size_one {
+    padding: 8px 10px;
+  }
+}

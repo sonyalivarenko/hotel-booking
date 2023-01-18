@@ -1,0 +1,9 @@
+.interiors__carousel-item {
+  line-height: 0;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.interiors__carousel-item:hover {
+  opacity: 0.7;
+}

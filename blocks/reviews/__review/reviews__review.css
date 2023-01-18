@@ -1,0 +1,9 @@
+.reviews__review {
+  list-style: none;
+  max-width: 793px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
